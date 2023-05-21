@@ -73,7 +73,7 @@ function eatfood() {
     }  
 };
 function checkcolistion() {
-    if (ranX[0]==(frame.width+25)||ranX[0]==0-25||ranY[0]==frame.height+25||ranY[0]==-50) {
+    if (ranX[0]==(frame.width+25)||ranX[0]==-50||ranY[0]==frame.height+25||ranY[0]==-50) {
         alert("Game over");
     }
     
